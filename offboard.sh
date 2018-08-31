@@ -17,7 +17,7 @@ echo -n "(Can be changed at each step) then press Enter: "
 read -r manager
 }
 
-# Remove the user form the google address list (contacts)
+# Remove the user from the google address list (contacts)
 remove_gal () {
 $GAM update user ${leaver} gal off
 }
